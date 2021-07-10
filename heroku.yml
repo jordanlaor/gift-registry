@@ -1,4 +1,4 @@
 build:
   docker:
-    web: /web/Dockerfile
-    api: /api/Dockerfile
+    web: /web/Dockerfile.web
+    api: /api/Dockerfile.api

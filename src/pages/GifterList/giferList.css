@@ -1,0 +1,7 @@
+.nav-list-section.nav-gifter {
+  flex-direction: row;
+}
+
+.nav-gifter .listNameGifter {
+  margin: 0;
+}

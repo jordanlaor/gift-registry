@@ -1,0 +1,11 @@
+.nav-user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-list-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

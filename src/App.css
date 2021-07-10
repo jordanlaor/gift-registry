@@ -1,0 +1,14 @@
+body,
+#root {
+  height: 100vh;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+
+.app-list-section {
+  display: flex;
+  flex-direction: column;
+}

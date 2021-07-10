@@ -1,0 +1,5 @@
+@media (min-width: 685px) AND (min-height: 580px) {
+  iframe:not(#gift-list-iframe) {
+    transform: scale(1.1);
+  }
+}

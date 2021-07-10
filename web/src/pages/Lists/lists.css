@@ -1,0 +1,6 @@
+.listsPageSignInMode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row: 1 / span 2;
+}

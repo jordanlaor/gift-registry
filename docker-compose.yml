@@ -13,6 +13,6 @@ services:
     build:
       context: ./web
       dockerfile: Dockerfile.web
-    ports:
-      - "8443:443"
-      - "8080:80"
+    # ports:
+    #   # - "8443:443"
+    #   - 8080:9876

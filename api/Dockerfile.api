@@ -1,5 +1,5 @@
 # Choose the image for the container
-FROM node:16.3.0
+FROM node:16.4.2
 # Define the base dir
 WORKDIR /app
 # Copy the package.json files to the workdir

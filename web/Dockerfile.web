@@ -5,8 +5,6 @@ WORKDIR /app
 # Copy the package.json files to the workdir
 COPY ./package.json ./
 COPY ./package-lock.json ./
-# Define the NODE_ENV
-ENV NODE_ENV production
 # Install the node modules
 RUN npm ci --only=production
 RUN npm prune
